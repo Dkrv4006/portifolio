@@ -22,6 +22,16 @@ body, html{
 
 }
 
+::-webkit-scrollbar{
+        width: 5px;
+        background-color: #353535;
+    }
+::-webkit-scrollbar-thumb{
+        width: 5px;
+        border-radius: 10px;
+        background-color: ${props=> props.theme.colors.quartenary};
+    }
+
 a, button{
     border: none;
     text-decoration: none;

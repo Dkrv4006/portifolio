@@ -10,6 +10,7 @@ export const Container = styled.div`
         display: none;
       }
       h1{
+        
         color: ${props=> props.theme.colors.white};
       }
       h3{
@@ -19,9 +20,10 @@ export const Container = styled.div`
 
       .scroll{
         width: 100%;
-        height: 1000px;
+        height: 600px;
+        padding-top: 20px;
         text-align: center;
-        background: ${props=> props.theme.colors.primary};
+        background: ${props=> props.theme.colors.secondary};
       }
       .language{
         padding: 10px;
@@ -64,6 +66,10 @@ export const Container = styled.div`
         cursor: pointer;
         border: 2px solid #333;
         box-shadow: -407px 0 0 400px ${props=> props.theme.colors.quartenary};
+}
+
+.scroll:hover  main{
+    border: 20px solid red;
 }
 
       

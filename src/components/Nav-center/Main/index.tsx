@@ -5,7 +5,7 @@ import javascript from "../../../assets/javascript.svg"
 import typescript from "../../../assets/typescript.svg"
 import reactjs from "../../../assets/reactjs.svg"
 import nodejs from "../../../assets/javascript.svg"
-import { url } from "inspector"
+
 
 
 export const Main: React.FC = () => {
@@ -32,6 +32,22 @@ export const Main: React.FC = () => {
       img: reactjs,
       link:"/project",
       text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus perferendis minus laudantium eveniet neque repellat dolor accusamus odit? Voluptatum expedita veniam illo ea. Nisi, corporis odit beatae blanditiis veniam asperiores.'
+
+    },
+    {
+      id:1 ,
+      name:'NodeJs',
+      img: nodejs,
+      link:"/project",
+      text:  'Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus perferendis minus laudantium eveniet neque repellat dolor accusamus odit? Voluptatum expedita veniam illo ea. Nisi, corporis odit beatae blanditiis veniam asperiores.'
+
+    },
+    {
+      id:1 ,
+      name:'NodeJs',
+      img: nodejs,
+      link:"/project",
+      text:  'Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus perferendis minus laudantium eveniet neque repellat dolor accusamus odit? Voluptatum expedita veniam illo ea. Nisi, corporis odit beatae blanditiis veniam asperiores.'
 
     },
     {

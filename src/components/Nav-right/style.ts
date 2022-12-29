@@ -59,7 +59,7 @@ export const Container = styled.div`
             
       }
       .active{
-
+            border-radius: 10px;
             background: ${props=> props.theme.colors.tertiary};
 
             p{
