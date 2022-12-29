@@ -19,6 +19,16 @@ export const Container = styled.div`
         background:${props=> props.theme.colors.primary};
         z-index: 20;
     }
+    &::after{
+        content: '';
+        position: fixed;
+       
+        bottom: 0;
+        width: 100%;
+        height: 15px;
+        background:${props=> props.theme.colors.primary};
+        z-index: 20;
+    }
     
 `
 
