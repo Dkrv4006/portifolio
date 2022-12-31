@@ -1,4 +1,4 @@
-export default {
+const light = {
     title:"lidht",
 
     colors: {
@@ -18,3 +18,5 @@ export default {
         warning:'#e44c4e',
     },
 }
+
+export default light
