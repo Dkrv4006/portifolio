@@ -72,7 +72,7 @@ export const Projecte = () => {
 
   const filterItem = (itemCategory) => {
     const upItem = data.filter((itemCat) => {
-      return ( toString(itemCat.category) === toString(itemCategory))
+      return ((itemCat.category) === (itemCategory))
     })
     setitems(upItem)
   }
