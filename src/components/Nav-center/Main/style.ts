@@ -49,9 +49,9 @@ export const Container = styled.div`
       
     }
     .lingue{
-        
+        flex: 1 1 250px;
         height:auto;
-        width: 31%;
+
         padding: 0 10px 15px;
         background: ${props=> props.theme.colors.secondary};
     }

@@ -13,7 +13,7 @@ export default {
         gray: '#bfbfbf',
         text: '#bfbfbf',
 
-        success: '#4e41f0',
+        success: '#00b7ff61',
         info: '#f7931b',
         warning:'#e44c4e',
     },

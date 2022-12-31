@@ -9,10 +9,10 @@ export const Header: React.FC = () => {
   
   return (
     <Container>
-       <h1>Bem-vindo!</h1>
-       <h2>Sou desenvolvedor <span>FULL STACK</span></h2>
+       <h1>Welcome!</h1>
+       <h1>I'm a developer<span> FULL STACK</span></h1>
 
-      <a href="/contat">Contat-me</a>
+      <a href="/contat"><button>Contact</button> </a>
      
 
       

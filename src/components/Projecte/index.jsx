@@ -79,6 +79,12 @@ export const Projecte = () => {
 
   return (
     <Container>
+      <div className="text">
+      <h1>Project</h1>
+      <p>These are some of my projects created or during my apprenticeship.</p>
+      <hr />
+
+      </div>
       <button onClick={() => setitems(data)}>All</button>
       <button onClick={() => filterItem("javascript")}>Javascript</button>
       <button onClick={() => filterItem("reactjs")}>React</button>
@@ -94,7 +100,7 @@ export const Projecte = () => {
 
                <div  className="project"  style={
                         {
-                          background: `url(${imag})  `,
+                          background: `gray  `,
                           backgroundRepeat: `no-repeat`,
                           backgroundSize: 'cover',
                           backgroundOrigin: 'padding-box',
@@ -106,8 +112,8 @@ export const Projecte = () => {
                             <a href="/#">
 
                             <div className="test">
-                            <h1>{name}</h1>
-                            <p>{description}</p>
+                             <h2>{name}</h2>
+                            <h4>{description}</h4>
 
                             </div>
                             </a>

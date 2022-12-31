@@ -2,32 +2,50 @@ import styled from "styled-components"
 
 export const Container = styled.div`
    
-    width: 100%;
+    grid-column: 2 / 3;
     height: auto;
-    padding: 4px;
+   
+    
 
     h1{
-        display: none;
+        
         color: ${props=> props.theme.colors.quartenary};
     }
-.test > p{
-        display: none;
-        margin-top: 15px;
+    h2,    h4{
+        opacity: 0;
+        transition: opacity .5s;
+        padding: 10px;
         color: ${props=> props.theme.colors.white};
-       
     }
+    p{
+        color: ${props=> props.theme.colors.white};
+        padding: 20px;
+    }
+    button{
+        background: none;
+        color: ${props=> props.theme.colors.text};
+        font-size: 18px ;
+
+        &:hover{
+            color: ${props=> props.theme.colors.quartenary};
+        }
+    }
+
+
 
 .conta{
     width: 100%;
-    height: auto;
+ 
+    margin-top: 20px;
     gap:15px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+
+ 
 
     > .project{
         height: 250px;
-        width: 32%;
+        flex: 1 1 250px;
         background: ${props=> props.theme.colors.secondary};
         
        
@@ -37,13 +55,12 @@ export const Container = styled.div`
 .test{
     width: 100%;
     height: 10%;
-    padding: 20px;
-    
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    transition: height .5s;
+    transition: height 0.5s;
+
     
     
     
@@ -51,15 +68,28 @@ export const Container = styled.div`
 }
 .project:hover .test{
     height: 100%;
-    width: 100%;
-    background: ${props=> props.theme.colors.quartenary};
+ 
+
     
+    background: ${props=> props.theme.colors.success};
     
+    h2, h4 {
+        transition: all 1.5s;
+         opacity: 1;
+      
+    }
+
 }
 
 button{
     padding: 10px;
     margin-left: 10px;
+}
+
+.text{
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 20px;
 }
 
 
