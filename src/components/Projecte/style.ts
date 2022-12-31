@@ -54,7 +54,7 @@ export const Container = styled.div`
 }
 .test{
     width: 100%;
-    height: 10%;
+    height: -10%;
    
     display: flex;
     flex-direction: column;
