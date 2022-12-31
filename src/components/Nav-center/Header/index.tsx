@@ -1,6 +1,4 @@
 
-import { useState } from "react"
-import { api } from "../../api/api"
 import { Container } from "./style"
 
 export const Header: React.FC = () => {
