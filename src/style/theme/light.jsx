@@ -2,7 +2,7 @@ const light = {
     title:"lidht",
 
     colors: {
-        primary: '#d8d8fa',
+        primary: '#d8d8f8',
         secondary:'#f8f7f7',
         tertiary:'#cdcedf',
         quartenary:'#00b7ff',
@@ -13,7 +13,7 @@ const light = {
         gray: '#bfbfbf',
         text: '#4e4e4e',
 
-        success: '#4e41f0',
+        success: '#00b7ff',
         info: '#f7931b',
         warning:'#e44c4e',
     },
