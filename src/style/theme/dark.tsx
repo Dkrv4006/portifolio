@@ -13,7 +13,7 @@ const dark = {
         gray: '#bfbfbf',
         text: '#bfbfbf',
 
-        success: '#00b7ff61',
+        success: '#00b7ffd8',
         info: '#f7931b',
         warning:'#e44c4e',
     },

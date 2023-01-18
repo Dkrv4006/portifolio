@@ -8,7 +8,7 @@ export const Container = styled.div`
     top: 0;
 
     h2{
-        padding: 20px;
+        padding: 5px;
         color: ${props=> props.theme.colors.white};
     }
     .avata{
@@ -22,8 +22,8 @@ export const Container = styled.div`
     }
 
     img{
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
         border-radius: 50%;
     }
 

@@ -54,12 +54,12 @@ export const Container = styled.div`
 }
 .test{
     width: 100%;
-    height: -10%;
+    height: 100%;
    
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transition: height 0.5s;
+    transition: all .5s;
 
     
     
@@ -68,13 +68,14 @@ export const Container = styled.div`
 }
 .project:hover .test{
     height: 100%;
- 
+    transition: all .5s;
 
     
     background: ${props=> props.theme.colors.success};
     
     h2, h4 {
-        transition: all 1.5s;
+        transition: all .5s;
+        
          opacity: 1;
       
     }

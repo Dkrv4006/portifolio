@@ -3,70 +3,7 @@ import { useState } from "react"
 import { Container } from "./style"
 import { data } from "./data"
 
-// import javascript from "../../assets/javascript.svg"
-// import typescript from "../../assets/typescript.svg"
-// import reactjs from "../../assets/reactjs.svg"
-// import nodejs from "../../assets/nodejs.svg"
-
-
-
 export const Projecte = () => {
-
-  // const data = [
-   
-  //   {
-  //     id:6,
-  //     name: "novo6",
-  //     imag: javascript,
-  //     category: 'javascript',
-  //     link: "/",
-  //     description: "Esse projeto foi feito usando  Javascript, Html, Css puro"
-  //   },
-  //   {
-  //     id:5,
-  //     name: "novo5",
-  //     imag: typescript,
-  //     category: 'javascript',
-  //     link: "/",
-  //     description: "Esse projeto foi feito com  JAVASCRIPT puro"
-  //   },
-  //   {
-  //     id:4,
-  //     name: "novo4",
-  //     imag: reactjs,
-  //     link: "/",
-  //     description: "Esse projeto foi feito com  JAVASCRIPT puro"
-  //   },
-  //   {
-  //     id:3,
-  //     name: "novo3",
-  //     imag: nodejs,
-  //     category: 'javascript',
-  //     link: "/",
-  //     description: "Esse projeto foi feito com  JAVASCRIPT puro"
-  //   },
-  //   {
-  //     id:2,
-  //     name: "novo2",
-  //     imag: "",
-  //     link: "/",
-  //   },
-  //   {
-  //     id:1,
-  //     name: "novo1",
-  //     imag: "",
-  //     link: "/",
-  //   },
-  //   {
-  //     id:1,
-  //     name: "novo1",
-  //     imag: "",
-  //     link: "/",
-  //   },
-
-  
-  // ]
- 
 
   const [items, setitems] = useState(data)
 
@@ -91,43 +28,24 @@ export const Projecte = () => {
       <button onClick={() => filterItem("nodejs")}>Node</button>
       <button onClick={() => filterItem("css")}>Css</button>
       <div className="conta">
-
         {items.map(({name,imag,link, description,id}) => {
           return(
-
-          
-              
-
-               <div  className="project"  style={
-                        {
-                          background: `gray  `,
+               <div  className="project"  style={{
+                          backgroundImage: `url(${imag})`,
                           backgroundRepeat: `no-repeat`,
                           backgroundSize: 'cover',
-                          backgroundOrigin: 'padding-box',
-                          backgroundPosition: 'center'
-                      
-                        }}  
-                        key={id}>
-                          
-                            <a href="/#">
-
+                        
+                          backgroundPosition: 'center'}}  
+                          key={id}>
+                        
+                        <a href={link}>
                             <div className="test">
-                             <h2>{name}</h2>
-                            <h4>{description}</h4>
-
+                              <h2>{name}</h2>
+                              <h4>{description}</h4>
                             </div>
-                            </a>
-                
-                </div>
-              
-
-
-           
-             
-          )
-        })}
-
-
+                        </a>
+                </div> 
+                )})}
       </div>
     </Container>
   )
