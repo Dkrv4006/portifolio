@@ -4,7 +4,7 @@ import { ThemeProvider } from 'styled-components';
 import { NavCenter } from './components/Nav-center';
 import { NavLeft } from './components/Nav-left';
 import { NavRight } from './components/Nav-right';
-import { Blog } from './pages/Blog';
+import { Blogs } from './pages/Blogs';
 import { Contat } from './pages/Contat';
 import { Home } from './pages/Home';
 import { Project } from './pages/Project';
@@ -29,7 +29,7 @@ export function App(){
          <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/project' element={<Project/>}/>
-            <Route path='/blog' element={<Blog/>}/>
+            <Route path='/blog' element={<Blogs/>}/>
             <Route path='/contat' element={<Contat/>}/>
          </Routes>
        </NavCenter>

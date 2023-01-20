@@ -16,10 +16,12 @@ export  const data = [
       id:1,
       name: "Projeto_html",
       imag: Projetohtml,
-      category: 'javascript',
+      category: 'css',
       link: "https://dkrv4006.github.io/Projeto_html",
+      code: "https://github.com/Dkrv4006/Projeto_html",
       description: "Esse projeto foi feito usando  Javascript, Html, Css puro"
     },
+
     {
       id:2,
       name: "Cronometro",
@@ -28,6 +30,7 @@ export  const data = [
       link: "https://dkrv4006.github.io/Cronometro/",
       description: "Esse projeto foi feito usando  Javascript, Html, Css puro"
     },
+
     {
       id:3,
       name: "Gerador-de-cor",
@@ -36,14 +39,16 @@ export  const data = [
       link: "https://dkrv4006.github.io/Gerador-de-cor/",
       description: "Esse projeto foi feito usando  Javascript, Html, Css puro"
     },
+
     {
       id:4,
       name: "financiame_de_veiculo",
       imag: financiamentoveiculo,
-      category: 'reactjs',
+      category: 'javascript',
       link: "https://dkrv4006.github.io/financiamento_de_veiculo/",
       description: "Esse projeto foi feito usando  Javascript, Html, Css puro"
     },
+
     {
       id:5,
       name: "lista-tarefa",
@@ -52,6 +57,7 @@ export  const data = [
       link: "https://dkrv4006.github.io/lista-tarefa/",
       description: "Esse projeto foi feito usando  Javascript, Html, Css puro"
     },
+
     {
       id:6,
       name: "novo6",
@@ -60,6 +66,7 @@ export  const data = [
       link: "/",
       description: "Esse projeto foi feito usando  Javascript, Html, Css puro"
     },
+
     {
       id:7,
       name: "novo6",
@@ -68,6 +75,7 @@ export  const data = [
       link: "/",
       description: "Esse projeto foi feito usando  Javascript, Html, Css puro"
     },
+
     {
       id:8,
       name: "novo6",
@@ -76,6 +84,7 @@ export  const data = [
       link: "/",
       description: "Esse projeto foi feito usando  Javascript, Html, Css puro"
     },
+
     {
       id:9,
       name: "novo6",
@@ -84,6 +93,7 @@ export  const data = [
       link: "/",
       description: "Esse projeto foi feito usando  Javascript, Html, Css puro"
     },
+
     {
       id:10,
       name: "novo6",
@@ -92,6 +102,7 @@ export  const data = [
       link: "/",
       description: "Esse projeto foi feito usando  Javascript, Html, Css puro"
     },
+
     {
       id:11,
       name: "novo6",
@@ -100,6 +111,7 @@ export  const data = [
       link: "/",
       description: "Esse projeto foi feito usando  Javascript, Html, Css puro"
     },
+
     {
       id:12,
       name: "novo5",
@@ -108,6 +120,7 @@ export  const data = [
       link: "/",
       description: "Esse projeto foi feito com  JAVASCRIPT puro"
     },
+
     {
       id:13,
       name: "novo4",
@@ -115,6 +128,7 @@ export  const data = [
       link: "/",
       description: "Esse projeto foi feito com  JAVASCRIPT puro"
     },
+
     {
       id:14,
       name: "novo3",

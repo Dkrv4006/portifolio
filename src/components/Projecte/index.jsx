@@ -28,7 +28,7 @@ export const Projecte = () => {
       <button onClick={() => filterItem("nodejs")}>Node</button>
       <button onClick={() => filterItem("css")}>Css</button>
       <div className="conta">
-        {items.map(({name,imag,link, description,id}) => {
+        {items.map(({name,imag,link,code, description,id}) => {
           return(
                <div  className="project"  style={{
                           backgroundImage: `url(${imag})`,
@@ -38,12 +38,22 @@ export const Projecte = () => {
                           backgroundPosition: 'center'}}  
                           key={id}>
                         
-                        <a href={link}>
+                        
                             <div className="test">
                               <h2>{name}</h2>
                               <h4>{description}</h4>
+ 
+                              <a href={link}>
+
+                              <button  >view website <i className="fa fa-globe"></i></button>
+                              </a>
+                              <a href={code}>
+
+                              <button  > source code <i className="fa-brands fa-github"></i></button>
+                              </a>
+            
                             </div>
-                        </a>
+                        
                 </div> 
                 )})}
       </div>

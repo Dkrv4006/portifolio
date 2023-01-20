@@ -31,15 +31,14 @@ export const Container = styled.div`
         }
     }
 
-
-
-.conta{
-    width: 100%;
- 
-    margin-top: 20px;
-    gap:15px;
-    display: flex;
-    flex-wrap: wrap;
+    
+    .conta{
+        width: 100%;
+        
+        margin-top: 20px;
+        gap:15px;
+        display: flex;
+        flex-wrap: wrap;
 
  
 
@@ -55,31 +54,44 @@ export const Container = styled.div`
 .test{
     width: 100%;
     height: 100%;
-   
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     transition: all .5s;
-
+    
     
     
     
     
 }
+.test > a{
+    opacity: 0;
+
+    width: 80%;
+
+    margin-top: 10px;
+    border-radius: 10px;
+
+    background-color: ${props=> props.theme.colors.primary};
+}
+
+
 .project:hover .test{
     height: 100%;
     transition: all .5s;
 
     
-    background: ${props=> props.theme.colors.success};
+    background: ${props=> props.theme.colors.quartenary};
     
-    h2, h4 {
-        transition: all .5s;
+    h2, h4,a {
+        transition: all 1.5s;
         
          opacity: 1;
       
     }
-
+ 
 }
 
 button{
