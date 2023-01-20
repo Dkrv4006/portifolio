@@ -4,6 +4,7 @@ import Geradordecor from "../../assets/Gerador-de-cor.png"
 import Projetohtml from "../../assets/Projeto_html.png"
 import listatarefa from "../../assets/lista-tarefa.png"
 import financiamentoveiculo from "../../assets/financiamento_de_veiculo.png"
+import background_effect from "../../assets/background_effect.png"
 import typescript from "../../assets/typescript.svg"
 import reactjs from "../../assets/reactjs.svg"
 import nodejs from "../../assets/nodejs.svg"
@@ -60,10 +61,10 @@ export  const data = [
 
     {
       id:6,
-      name: "novo6",
-      imag: reactjs,
-      category: 'reactjs',
-      link: "/",
+      name: "background_effect",
+      imag: background_effect,
+      category: 'css',
+      link: "https://dkrv4006.github.io/background_effect/",
       description: "Esse projeto foi feito usando  Javascript, Html, Css puro"
     },
 
