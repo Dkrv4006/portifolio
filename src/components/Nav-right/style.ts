@@ -22,6 +22,7 @@ export const Container = styled.div`
 
       button{
             background: transparent;
+            margin-bottom: 20px;
       }
       .left{
             width: 100%;

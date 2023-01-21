@@ -13,8 +13,18 @@ import nodejs from "../../assets/nodejs.svg"
 
 export  const data = [
    
+
+  {
+    id:88,
+    name: "Cronometro",
+    imag: Cronometro,
+    category: 'javascript',
+    link: "https://dkrv4006.github.io/Cronometro/",
+    description: "Esse projeto foi feito usando  Javascript, Html, Css puro"
+  },
+
     {
-      id:1,
+      id:5,
       name: "Projeto_html",
       imag: Projetohtml,
       category: 'css',
@@ -23,17 +33,10 @@ export  const data = [
       description: "Esse projeto foi feito usando  Javascript, Html, Css puro"
     },
 
-    {
-      id:2,
-      name: "Cronometro",
-      imag: Cronometro,
-      category: 'javascript',
-      link: "https://dkrv4006.github.io/Cronometro/",
-      description: "Esse projeto foi feito usando  Javascript, Html, Css puro"
-    },
+   
 
     {
-      id:3,
+      id:4,
       name: "Gerador-de-cor",
       imag: Geradordecor,
       category: 'javascript',
@@ -42,7 +45,7 @@ export  const data = [
     },
 
     {
-      id:4,
+      id:3,
       name: "financiame_de_veiculo",
       imag: financiamentoveiculo,
       category: 'javascript',
@@ -51,7 +54,7 @@ export  const data = [
     },
 
     {
-      id:5,
+      id:2,
       name: "lista-tarefa",
       imag: listatarefa,
       category: 'javascript',
@@ -60,85 +63,12 @@ export  const data = [
     },
 
     {
-      id:6,
+      id:1,
       name: "background_effect",
       imag: background_effect,
       category: 'css',
       link: "https://dkrv4006.github.io/background_effect/",
       description: "Esse projeto foi feito usando  Javascript, Html, Css puro"
     },
-
-    {
-      id:7,
-      name: "novo6",
-      imag: reactjs,
-      category: 'reactjs',
-      link: "/",
-      description: "Esse projeto foi feito usando  Javascript, Html, Css puro"
-    },
-
-    {
-      id:8,
-      name: "novo6",
-      imag: javascript,
-      category: 'javascript',
-      link: "/",
-      description: "Esse projeto foi feito usando  Javascript, Html, Css puro"
-    },
-
-    {
-      id:9,
-      name: "novo6",
-      imag: javascript,
-      category: 'javascript',
-      link: "/",
-      description: "Esse projeto foi feito usando  Javascript, Html, Css puro"
-    },
-
-    {
-      id:10,
-      name: "novo6",
-      imag: nodejs,
-      category: 'nodejs',
-      link: "/",
-      description: "Esse projeto foi feito usando  Javascript, Html, Css puro"
-    },
-
-    {
-      id:11,
-      name: "novo6",
-      imag: javascript,
-      category: 'javascript',
-      link: "/",
-      description: "Esse projeto foi feito usando  Javascript, Html, Css puro"
-    },
-
-    {
-      id:12,
-      name: "novo5",
-      imag: typescript,
-      category: 'javascript',
-      link: "/",
-      description: "Esse projeto foi feito com  JAVASCRIPT puro"
-    },
-
-    {
-      id:13,
-      name: "novo4",
-      imag: reactjs,
-      link: "/",
-      description: "Esse projeto foi feito com  JAVASCRIPT puro"
-    },
-
-    {
-      id:14,
-      name: "novo3",
-      imag: nodejs,
-      category: 'nodejs',
-      link: "/",
-      description: "Esse projeto foi feito com  JAVASCRIPT puro"
-    },
   
-
-  
-  ]
+]

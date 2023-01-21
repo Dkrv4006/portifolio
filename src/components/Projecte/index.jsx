@@ -45,11 +45,11 @@ export const Projecte = () => {
  
                               <a href={link}>
 
-                              <button  >view website <i className="fa fa-globe"></i></button>
+                              <button className="btn" >view website <i className="fa fa-globe"></i></button>
                               </a>
                               <a href={code}>
 
-                              <button  > source code <i className="fa-brands fa-github"></i></button>
+                              <button className="btn" > source code <i className="fa-brands fa-github"></i></button>
                               </a>
             
                             </div>

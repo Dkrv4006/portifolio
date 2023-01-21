@@ -11,7 +11,7 @@ export const Container = styled.div`
         margin: 5px;
       }
       button{
-        margin-top:40px;
+        margin-top:20px;
         font-size: 20px;
         background: ${props=> props.theme.colors.quartenary};
         padding: 10px 40px;

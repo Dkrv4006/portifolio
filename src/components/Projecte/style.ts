@@ -25,10 +25,16 @@ export const Container = styled.div`
         background: none;
         color: ${props=> props.theme.colors.text};
         font-size: 18px ;
+     
 
         &:hover{
+            filter: brightness(0.8);
             color: ${props=> props.theme.colors.quartenary};
         }
+    }
+
+    .btn{
+        width: 100%;
     }
 
     
@@ -50,6 +56,7 @@ export const Container = styled.div`
        
       
 }
+
 }
 .test{
     width: 100%;
