@@ -1,13 +1,11 @@
-import javascript from "../../assets/javascript.svg"
+
 import Cronometro from "../../assets/Cronometro.png"
 import Geradordecor from "../../assets/Gerador-de-cor.png"
 import Projetohtml from "../../assets/Projeto_html.png"
 import listatarefa from "../../assets/lista-tarefa.png"
 import financiamentoveiculo from "../../assets/financiamento_de_veiculo.png"
 import background_effect from "../../assets/background_effect.png"
-import typescript from "../../assets/typescript.svg"
-import reactjs from "../../assets/reactjs.svg"
-import nodejs from "../../assets/nodejs.svg"
+
 
 
 
