@@ -18,8 +18,8 @@ export const Projecte = () => {
     <Container>
       <div className="text">
       <h1>Project</h1>
-      <p>These are some of my projects created or during my apprenticeship.</p>
       <hr />
+      <h3>Durante o meu período de aprendizado, crier vários projetos que me permitiram aplicar os conhecimentos adquiridos e desenvolver minhas habilidades. Alguns dos projetos que destaco incluem:</h3>
 
       </div>
       <button onClick={() => setitems(data)}>All</button>
