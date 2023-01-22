@@ -24,7 +24,7 @@ export const NavRight: React.FC<Itheme> = ({theme}) => {
     {
       name: 'Farmac',
       icon: "fa fa-user-graduate",
-      link: '/'
+      link: '/education'
     },
     {
       name: 'Blog',
@@ -46,7 +46,7 @@ export const NavRight: React.FC<Itheme> = ({theme}) => {
 
 
 
-      <button
+      <button 
       onClick={() => 
         {theme(); setopen(!open);}}>
         {open 

@@ -14,12 +14,8 @@ export const Container = styled.div`
       p{
             font-weight: 800;
             margin-bottom: 10px;
-            color: ${props=> props.theme.colors.text};
-            
-         
-            
+            color: ${props=> props.theme.colors.text}; 
       }
-
       button{
             background: transparent;
             margin-bottom: 20px;
