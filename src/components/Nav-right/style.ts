@@ -64,4 +64,31 @@ export const Container = styled.div`
             }
       }
 
+      @media only screen and (max-width: 950px) {
+            grid-row: 2 / 3;
+            grid-column: 1 / 3;
+      
+      width: 100%;
+      height: 100px;
+
+      position: sticky;
+      bottom: 0;
+      right: 10px;
+      background: ${props=> props.theme.colors.secondary};
+
+      
+      .left{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content:center;
+      }
+      .link{
+            padding: 10px;
+            height: 100%;
+            text-align: center;
+      }
+}
+
 `

@@ -8,6 +8,8 @@ export const Container = styled.div`
 
       h1{
         color: ${props=> props.theme.colors.white};
+        font-size: min(2.5vw, 36px);
+  
         margin: 5px;
       }
       button{
@@ -24,6 +26,10 @@ export const Container = styled.div`
 
       span{
         color: ${props=> props.theme.colors.quartenary};
+      }
+
+      @media only screen and (max-width: 950px) {
+        
       }
      
 `

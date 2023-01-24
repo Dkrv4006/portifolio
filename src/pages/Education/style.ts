@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
-    width: auto;
+    
       padding: 25px 15px;
 
 
@@ -23,7 +23,8 @@ export const Container = styled.div`
 
 
       h3{
-        margin: 20px;
+       
+        font-size: 1rem;
         color: ${props=> props.theme.colors.text};
       }
       h4{
@@ -40,6 +41,7 @@ export const Container = styled.div`
         background: ${props=> props.theme.colors.quartenary};
         color: ${props=> props.theme.colors.secondary};
       }
+    
 
       .container-edu{
         width: 100%;
@@ -52,7 +54,9 @@ export const Container = styled.div`
         align-items: center;
         margin-bottom: 15px;
         padding: 10px;
-        height: 210px;
+        min-height: 210px;
+        max-height: 320px;
+        /* height: 210px; */
         background: ${props=> props.theme.colors.secondary};
       }
 
@@ -65,6 +69,35 @@ export const Container = styled.div`
         text-align: left;
         flex: 60%;
       }
+
+      @media screen and (max-width: 950px) {
+
+        width: 93vw;
+        padding: 25px 15px;
+
+        hr{
+
+        margin: 20px 0;
+      }
+      .education{
+        
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+       
+        
+      }
+      
+     
+
+        .education h4 {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;
+        }}
 
 
 

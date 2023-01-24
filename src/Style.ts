@@ -19,7 +19,7 @@ export const Container = styled.div`
         background:${props=> props.theme.colors.primary};
         z-index: 20;
     }
-    &::after{
+    /* &::after{
         content: '';
         position: fixed;
        
@@ -28,7 +28,14 @@ export const Container = styled.div`
         height: 15px;
         background:${props=> props.theme.colors.primary};
         z-index: 20;
-    }
+    } */
+
+    @media  screen and (max-width: 950px) {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+
+  }
     
 `
 

@@ -38,7 +38,7 @@ export const Container = styled.div`
         display: flex;
         flex-wrap: wrap;
         text-align: center;
-        justify-content: space-between;
+        /* justify-content: space-between; */
       
     }
     .lingue{
@@ -57,6 +57,44 @@ export const Container = styled.div`
         align-items: center;
         justify-content: space-evenly;
     }
+
+    @media screen and (max-width: 950px) {
+        img{
+            width: 30px;
+            height: 30px;
+        }
+
+        .lingue{
+          
+          box-shadow: 0 0 3px;
+          padding: 10px;
+        }
+
+        .education h2 {
+          margin: 0 0 5px;
+        }
+
+        .lingue p{
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;
+        }
+
+        &:hover p {
+            overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 6;
+          -webkit-box-orient: vertical;
+        }
+        
+    }
+
+
+   
+
 
 
     

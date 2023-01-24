@@ -7,4 +7,11 @@ export const Container = styled.div`
       left: 10px;
       padding-top: 230px;
       height: 100vh;
+
+      @media screen and (max-width: 950px) {
+           display: none;
+           position: static;
+
+           
+  }
 `
