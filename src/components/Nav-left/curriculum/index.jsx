@@ -6,8 +6,7 @@ export const Curriculum = () => {
   return (
     <Container>
       <a href={curriculum} download="curriculum" >
-
-      <button >Download</button>
+       <button >Download</button>
       </a>
     </Container>
   )

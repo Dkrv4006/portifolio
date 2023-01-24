@@ -9,14 +9,14 @@ export const Container = styled.div`
       ::-webkit-scrollbar{
         display: none;
       }
+      
       h1{
-        
         color: ${props=> props.theme.colors.white};
       }
+
       h3{
         margin: 10px 5px;
       }
-
 
       .scroll{
         width: 100%;

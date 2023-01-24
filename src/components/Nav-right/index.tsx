@@ -26,11 +26,11 @@ export const NavRight: React.FC<Itheme> = ({theme}) => {
       icon: "fa fa-user-graduate",
       link: '/education'
     },
-    {
-      name: 'Blog',
-      icon: "fa-solid fa-laptop-code",
-      link: '/blog'
-    },
+    // {
+    //   name: 'Blog',
+    //   icon: "fa-solid fa-laptop-code",
+    //   link: '/blog'
+    // },
     {
       name: 'Contat',
       icon: "fa fa-message",
@@ -43,11 +43,8 @@ export const NavRight: React.FC<Itheme> = ({theme}) => {
     <Container>
     
     <div className="left">
-
-
-
       <button 
-      onClick={() => 
+        onClick={() => 
         {theme(); setopen(!open);}}>
         {open 
         ? <i className="fa-regular fa-moon"></i>
@@ -62,13 +59,10 @@ export const NavRight: React.FC<Itheme> = ({theme}) => {
                <i className={icon}></i>
                </div>
             </NavLink>
-
         )
-      })}
-
+      })
+      }
     </div>
-
-     
     </Container>
   )
 }

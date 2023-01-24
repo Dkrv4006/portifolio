@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const Container = styled.div`
     width: 100%;
-    height: 230px;
+    height: 250px;
     background: ${props=> props.theme.colors.secondary};
     position: absolute;
     top: 0;
@@ -22,10 +22,23 @@ export const Container = styled.div`
     }
 
     img{
-        width: 150px;
-        height: 150px;
+        width: 130px;
+        height: 130px;
         border-radius: 50%;
     }
+
+    .icons{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+
+        margin-top: 10px;
+
+    i {
+        font-size: 30px;
+        color: ${props=> props.theme.colors.white};
+    }
+}
 
       
 `

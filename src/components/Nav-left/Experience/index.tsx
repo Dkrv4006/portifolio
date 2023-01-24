@@ -21,20 +21,20 @@ export const Experience: React.FC = () => {
       value: 50,
     },
     {
-      language: "Css",
-      value: 90,
+      language: "Next Js",
+      value: 30,
     },
     {
-      language: "Css",
-      value: 90,
+      language: "Nest Js",
+      value: 44,
     },
     {
-      language: "Css",
-      value: 90,
+      language: "Aws",
+      value: 70,
     },
     {
-      language: "Css",
-      value: 90,
+      language: "Mysql",
+      value: 60,
     },
   ]
 
@@ -50,6 +50,7 @@ export const Experience: React.FC = () => {
           return(
             <div className="container" key={index}>
               <div className="box">
+                
               <h3>{language}</h3>
               <h3>{value}%</h3>
 

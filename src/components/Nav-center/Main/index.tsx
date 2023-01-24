@@ -1,12 +1,4 @@
-
 import { Container} from "./style"
-
-import javascript from "../../../assets/javascript.svg"
-import typescript from "../../../assets/typescript.svg"
-import reactjs from "../../../assets/reactjs.svg"
-import nodejs from "../../../assets/javascript.svg"
-
-
 
 export const Main: React.FC = () => {
 
@@ -14,54 +6,118 @@ export const Main: React.FC = () => {
     {
       id:1 ,
       name:'JavaScript',
-      img: javascript,
       link:"/project",
-      text: "JavaScript foi criado em 1995 por Brendan Eich. Começou como uma linguagem simples para aplicativos web, mas hoje é usada em aplicativos front-end e back-end. Eu tenho trabalhado com JavaScript por anos e amo a capacidade de criar interatividade e dinamismo em projetos web."
+      icon: "https://skillicons.dev/icons?i=javascript",
+      text: "Minha experiência com JavaScript tem sido incrível, trabalhando com ele há mais de 3 anos. É uma linguagem versátil e poderosa que me permite desenvolver tanto no lado do cliente quanto no lado do servidor. A sua comunidade é grande e há muitos recursos disponíveis para aprender e se aperfeiçoar."
     },
     {
       id:2 ,
       name:'TypeScript',
-      img: typescript,
+      icon: "https://skillicons.dev/icons?i=typescript",
       link:"/project",
-      text: "TypeScript foi criado pela Microsoft em 2012, com o objetivo de melhorar a escrita de código JavaScript. Ele adiciona tipagem estática e recursos avançados, tornando o código mais organizado e fácil de manter. Tenho trabalhado com TypeScript em vários projetos e aprecio a sua capacidade de melhorar a qualidade do código e a eficiência do desenvolvimento."
+      text: "TypeScript adiciona recursos de tipagem ao JavaScript, o que me ajuda a escrever código mais seguro e fácil de manter. Ele também tem uma excelente integração com ferramentas de desenvolvimento populares"
 
     },
     {
       id:3 ,
       name:'ReactJs',
-      img: reactjs,
+      icon: "https://skillicons.dev/icons?i=react",
       link:"/project",
-      text: "ReactJS é um framework JavaScript criado pela Facebook em 2011, especialmente projetado para construir interfaces de usuário e aplicações web. Ele permite o desenvolvimento de componentes reutilizáveis e a capacidade de lidar com grandes conjuntos de dados. Possuo extensa experiência trabalhando com ReactJS, tendo implementado suas funções em diversos projetos, e aprecio sua facilidade de uso e flexibilidade."
+      text: "React.js é fácil de aprender e usar, e a sua comunidade é grande e ativa. Ele me permite construir aplicações web com componentes reutilizáveis e escaláveis, eu recomendo para quem deseja desenvolver aplicações web modernas e interativas."
     },
     {
       id:4 ,
       name:'NodeJs',
-      img: nodejs,
+      icon: "https://skillicons.dev/icons?i=nodejs",
       link:"/project",
-      text:  "Node.js é uma plataforma de código aberto criada em 2009 por Ryan Dahl, que permite a execução de JavaScript no lado do servidor. Isso torna possível a construção de aplicações full-stack usando apenas uma única linguagem, facilitando a produtividade do desenvolvedor. Possuo vasta experiência trabalhando com Node.js, tendo aplicado suas funcionalidades em diversos projetos, e aprecio sua escalabilidade, velocidade de execução e a ampla disponibilidade de bibliotecas de terceiros."
+      text:  "Minha experiência com Node.js é positiva, tendo trabalhado com ele por cerca de 2 anos. Gosto da facilidade de uso e da grande comunidade. Ele permite escrever código JavaScript tanto no lado do cliente quanto no lado do servidor, o que me ajuda a ser mais eficiente e produtivo."
+
+    },
+    {
+      id:5 ,
+      name:'NexJs',
+      icon: "https://skillicons.dev/icons?i=nextjs",
+      link:"/project",
+      text:  "Next.js é fácil de usar e me permite desenvolver aplicações web de forma rápida e eficiente. Ele vem com recursos de roteamento, construção e performance pré-configurados, tornando o desenvolvimento mais fácil e produtivo. Ele também tem uma excelente integração com o React, o que é uma vantagem para quem está familiarizado com essa biblioteca."
+
+    },
+    {
+      id:6 ,
+      name:'NestJs',
+      icon: "https://skillicons.dev/icons?i=nestjs",
+      link:"/project",
+      text:  "Nest.js é baseado no Node.js e usa o TypeScript para proporcionar uma estrutura de aplicativo robusta e escalável. Ele também oferece suporte ao desenvolvimento de aplicativos com arquitetura de camadas, permitindo uma melhor organização do código. Ele tem uma comunidade ativa e diversas bibliotecas e ferramentas disponíveis para auxiliar no desenvolvimento."
+
+    },
+    {
+      id:7 ,
+      name:'Prisma',
+      icon: "https://skillicons.dev/icons?i=prisma",
+      link:"/project",
+      text:  "Prisma é uma ferramenta de gerenciamento de banco de dados que me permite trabalhar com bancos de dados relacionais de forma simples e eficiente. Ele oferece uma linguagem de consulta fácil de usar, e uma camada de abstração do banco de dados, tornando o desenvolvimento mais rápido e seguro."
+
+    },
+    {
+      id:8 ,
+      name:'Mysql',
+      icon: "https://skillicons.dev/icons?i=mysql",
+      link:"/project",
+      text:  "MySQL é um sistema de gerenciamento de banco de dados relacional robusto e confiável. Ele possui uma grande variedade de recursos e é amplamente utilizado em aplicações web e sistemas empresariais."
+
+    },
+    {
+      id:9 ,
+      name:'Aws',
+      icon: "https://skillicons.dev/icons?i=aws",
+      link:"/project",
+      text:  "AWS é uma plataforma de nuvem confiável e escalável, com uma ampla variedade de serviços e ferramentas para desenvolvimento, infraestrutura e gerenciamento de aplicativos. Ele me permite gerenciar recursos de forma fácil e eficiente"
+
+    },
+    {
+      id:10 ,
+      name:'Github',
+      icon: "https://skillicons.dev/icons?i=github",
+      link:"/project",
+      text:  "GitHub é uma plataforma de controle de versão e colaboração para código aberto e privado. Ele me permite gerenciar meus projetos e colaborar com outras pessoas de forma fácil e eficiente. Ele tem uma interface intuitiva e uma ampla variedade de recursos"
+
+    },
+    {
+      id:11,
+      name:'Linux',
+      icon: "https://skillicons.dev/icons?i=linux",
+      link:"/project",
+      text:  "Linux é um sistema operacional de código aberto altamente personalizável e escalável. Ele me permite gerenciar minha infraestrutura de forma eficiente e segura. Ele possui uma comunidade ativa e uma grande variedade de distribuições e ferramentas disponíveis. Ele é uma boa escolha para desenvolvedores e administradores de sistemas que buscam flexibilidade e estabilidade."
 
     },
   ]
 
   return (
     <Container>
-      
       <hr />
-
       <div className="box">
-        {data.map(({name,img,link, text,id}) => {
+        {data.map(({name,link, text,icon,id}) => {
           return(
-            <div  className="lingue">
-              
-              <h2>{name}</h2>
+            <div  className="lingue" key={id}>
+              <h2><img src={icon} alt={name} /><br />{name}</h2>
               <p>{text}</p>
-
-              <a href={link}> to go <i className="fa-solid fa-chevron-right"></i></a>
-
-            </div>
-           
+              <a href={link}> TO GO <i className="fa-solid fa-chevron-right"></i></a>
+            </div>    
           )
-        })}
+        })
+        }
+           <div className="foolde">
+               <img src="https://skillicons.dev/icons?i=webpack" alt="webpack" />
+               <img src="https://skillicons.dev/icons?i=vscode" alt="vscode" />
+               <img src="https://skillicons.dev/icons?i=vite" alt="vite" />
+               <img src="https://skillicons.dev/icons?i=tailwind" alt="tailwind" />
+               <img src="https://skillicons.dev/icons?i=styledcomponents" alt="styledcomponents" />
+               <img src="https://skillicons.dev/icons?i=postgres" alt="postgres" />
+               <img src="https://skillicons.dev/icons?i=netlify" alt="netlify" />
+               <img src="https://skillicons.dev/icons?i=materialui" alt="materialui" />
+               <img src="https://skillicons.dev/icons?i=mongodb" alt="mongodb" />
+               <img src="https://skillicons.dev/icons?i=bootstrap" alt="bootstrap" />
+               <img src="https://skillicons.dev/icons?i=bash" alt="bash" />
+           </div>
       </div>
     </Container>
   )

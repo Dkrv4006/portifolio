@@ -10,7 +10,6 @@ export const NavCenter: React.FC<IChildren> = ({children}) => {
   return (
     <Container>
       {children}
-      
     </Container>
   )
 }
