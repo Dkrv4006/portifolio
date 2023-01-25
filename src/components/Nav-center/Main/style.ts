@@ -66,7 +66,7 @@ export const Container = styled.div`
 
         .lingue{
           
-          box-shadow: 0 0 3px;
+          
           padding: 10px;
         }
 
@@ -82,11 +82,11 @@ export const Container = styled.div`
           -webkit-box-orient: vertical;
         }
 
-        &:hover p {
+        .lingue:hover p {
             overflow: hidden;
           text-overflow: ellipsis;
           display: -webkit-box;
-          -webkit-line-clamp: 6;
+          -webkit-line-clamp: unset;
           -webkit-box-orient: vertical;
         }
         

@@ -1,4 +1,5 @@
 
+import { Curriculum } from "../../components/curriculum"
 import { data } from "./data"
 import { Container } from "./style"
 
@@ -25,6 +26,7 @@ export const Education: React.FC = () => {
         )
       })}
     </div>
+    <Curriculum/>
     </Container>
   )
 }

@@ -31,5 +31,16 @@ export const Container = styled.div`
         margin-top: 30px;
         background: ${props=> props.theme.colors.quartenary};
     }
+
+    @media screen and (max-width: 950px) {
+
+        form{
+        width: 100%;
+        padding: 20px;
+        background: ${props=> props.theme.colors.secondary};
+        height: 73vh;
+  
+    }
+    }
       
 `

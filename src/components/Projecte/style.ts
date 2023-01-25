@@ -88,7 +88,6 @@ export const Container = styled.div`
 
     button{
         padding: 10px;
-        margin-left: 10px;
     }
 
     .text{

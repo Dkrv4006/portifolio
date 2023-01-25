@@ -68,13 +68,13 @@ export const Container = styled.div`
             grid-row: 2 / 3;
             grid-column: 1 / 3;
       
-      width: 100%;
-      height: 100px;
+            width: 100%;
+            height: 90px;
 
-      position: sticky;
-      bottom: 0;
-      right: 10px;
-      background: ${props=> props.theme.colors.secondary};
+            position: sticky;
+            bottom: 0;
+            right: 0;
+            background: ${props=> props.theme.colors.secondary};
 
       
       .left{
@@ -88,6 +88,20 @@ export const Container = styled.div`
             padding: 10px;
             height: 100%;
             text-align: center;
+      }
+      button{
+            display: block;
+            background: transparent;
+            margin-bottom: 0px;
+            margin: 35px 20px 0 0;
+      }
+      a{
+            margin-top: 0px;
+            color: ${props=> props.theme.colors.quartenary};
+      }
+      i{
+            font-size: 25px;
+            color: ${props=> props.theme.colors.quartenary};
       }
 }
 

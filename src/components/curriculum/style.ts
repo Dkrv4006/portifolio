@@ -5,7 +5,7 @@ export const Container = styled.div`
    
 
     position: absolute;
-    bottom: 15px;
+    bottom: 10px;
     left: 0;
     z-index: 20;
     
@@ -17,6 +17,16 @@ export const Container = styled.div`
         font-size: 20px;
         background-color: ${props=> props.theme.colors.quartenary};
 
+    }
+
+    @media screen and (max-width: 950px) {
+             position: static;
+             z-index: 0;
+
+             i{
+                font-size: 20px;
+                margin-left: 10px;
+             }
     }
       
 `

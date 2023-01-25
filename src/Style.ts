@@ -30,10 +30,13 @@ export const Container = styled.div`
         z-index: 20;
     } */
 
+
     @media  screen and (max-width: 950px) {
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: 1fr;
         grid-template-rows: auto auto;
+
+
 
   }
     

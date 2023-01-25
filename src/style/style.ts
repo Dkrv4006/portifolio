@@ -44,5 +44,21 @@ a, button{
     display: flex;
     justify-content: center;
 }
+
+.none{
+        display: none;
+    }
+
+    @media  screen and (max-width: 950px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+
+
+        .none{
+            display: block;
+        }
+
+  }
     
 `

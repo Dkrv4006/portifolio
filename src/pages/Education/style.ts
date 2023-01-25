@@ -55,7 +55,7 @@ export const Container = styled.div`
         margin-bottom: 15px;
         padding: 10px;
         min-height: 210px;
-        max-height: 320px;
+        max-height: auto;
         /* height: 210px; */
         background: ${props=> props.theme.colors.secondary};
       }
@@ -89,15 +89,28 @@ export const Container = styled.div`
         
       }
       
-     
-
-        .education h4 {
+        .right-edu h4 {
           overflow: hidden;
           text-overflow: ellipsis;
           display: -webkit-box;
           -webkit-line-clamp: 3;
           -webkit-box-orient: vertical;
-        }}
+        }
+        .education:hover h4 {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: unset;
+          -webkit-box-orient: vertical;
+        }
+
+        .right-edu{
+        text-align: center;
+        flex: 60%;
+      }
+      
+      
+      }
 
 
 

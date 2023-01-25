@@ -27,18 +27,8 @@ export const Container = styled.div`
         border-radius: 50%;
     }
 
-    .icons{
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
 
-        margin-top: 10px;
-
-    i {
-        font-size: 30px;
-        color: ${props=> props.theme.colors.white};
-    }
-}
+    
 
       
 `

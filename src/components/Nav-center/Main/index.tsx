@@ -1,3 +1,4 @@
+import { Foolder } from "../../Foolder"
 import { Container} from "./style"
 
 export const Main: React.FC = () => {
@@ -118,6 +119,10 @@ export const Main: React.FC = () => {
                <img src="https://skillicons.dev/icons?i=bootstrap" alt="bootstrap" />
                <img src="https://skillicons.dev/icons?i=bash" alt="bash" />
            </div>
+      </div>
+      <div className="none">
+
+      <Foolder/>
       </div>
     </Container>
   )
