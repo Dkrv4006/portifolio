@@ -2,7 +2,7 @@
 import { useState } from "react"
 import { Container } from "./style"
 import { data } from "./data"
-import { Foolder } from "../Foolder"
+
 
 export const Projecte = () => {
 
