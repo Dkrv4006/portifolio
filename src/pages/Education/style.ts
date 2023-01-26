@@ -53,7 +53,7 @@ export const Container = styled.div`
         justify-content: space-around;
         align-items: center;
         margin-bottom: 15px;
-        padding: 10px;
+        padding: 20px 10px;
         min-height: 210px;
         max-height: auto;
         /* height: 210px; */
@@ -72,9 +72,13 @@ export const Container = styled.div`
 
       @media screen and (max-width: 950px) {
 
+
         width: 93vw;
         padding: 25px 15px;
 
+        .h3{
+          font-size: 10px;
+        }
         hr{
 
         margin: 20px 0;
