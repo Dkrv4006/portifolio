@@ -10,7 +10,7 @@ export const Container = styled.div`
         align-items: center;
         justify-content: space-evenly;
 
-        h3{
+        .h3{
             color: ${props=> props.theme.colors.white} ;
         }
         span{
@@ -19,7 +19,9 @@ export const Container = styled.div`
     
 
         @media screen and (max-width: 950px) {
-             
+             .h3{
+                font-size: 10px;
+             }
         }
 `
 
