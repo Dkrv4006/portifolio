@@ -35,7 +35,7 @@ export const Container = styled.div`
         font-weight: 100;
         color: ${props=> props.theme.colors.white};
       }
-      span{
+      .span{
         padding: 5px;
         border-radius: 5px;
         background: ${props=> props.theme.colors.quartenary};

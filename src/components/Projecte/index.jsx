@@ -46,11 +46,11 @@ export const Projecte = () => {
  
                               <a href={link}>
 
-                              <button className="btn" >view website <i className="fa fa-globe"></i></button>
+                              <button className="btn" >Live Preview  <i className="fa fa-globe"></i></button>
                               </a>
                               <a href={code}>
 
-                              <button className="btn" > source code <i className="fa-brands fa-github"></i></button>
+                              <button className="btn" > View Code <i className="fa-brands fa-github"></i></button>
                               </a>
             
                             </div>
@@ -58,7 +58,7 @@ export const Projecte = () => {
                 </div> 
                 )})}
       </div>
-
+     
     </Container>
   )
 }

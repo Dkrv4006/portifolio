@@ -5,7 +5,7 @@ export const Container = styled.div`
    
 
     position: absolute;
-    bottom: 10px;
+    bottom: 15px;
     left: 0;
     z-index: 20;
     
@@ -21,6 +21,7 @@ export const Container = styled.div`
 
     @media screen and (max-width: 950px) {
              position: static;
+             margin-top: 10px;
              z-index: 0;
 
              i{

@@ -1,5 +1,6 @@
 
 import { Curriculum } from "../../components/curriculum"
+import { Footer } from "../../components/Footer"
 import { data } from "./data"
 import { Container } from "./style"
 
@@ -16,7 +17,7 @@ export const Education: React.FC = () => {
           <div className="education">
             <div className="left-edu">
               <h2>{institutions}</h2>
-              <h3>Termino <span>{date}</span></h3>
+              <h3>Termino <span className="span">{date}</span></h3>
             </div>
             <div className="right-edu">
               <a href={link}>{certificate}</a>
@@ -26,7 +27,10 @@ export const Education: React.FC = () => {
         )
       })}
     </div>
+    <div className="none">
     <Curriculum/>
+    </div>
+    <Footer/>
     </Container>
   )
 }

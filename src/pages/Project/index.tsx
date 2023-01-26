@@ -1,5 +1,6 @@
 
-import { Foolder } from "../../components/Foolder"
+import { Curriculum } from "../../components/curriculum"
+import { Footer } from "../../components/Footer"
 import { Projecte } from "../../components/Projecte"
 import { Container } from "./style"
 
@@ -9,9 +10,9 @@ export const Project: React.FC = () => {
       <Projecte/>
 
       <div className="none">
-
-      <  Foolder/>
+      < Curriculum/>
       </div>
+      <Footer/>
     </Container>
   )
 }

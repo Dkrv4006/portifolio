@@ -36,6 +36,10 @@ export const Experience: React.FC = () => {
       language: "Mysql",
       value: 60,
     },
+    {
+      language: "Mysql",
+      value: 60,
+    },
   ]
 
   return (

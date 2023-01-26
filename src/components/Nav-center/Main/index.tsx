@@ -1,4 +1,5 @@
-import { Foolder } from "../../Foolder"
+import { Curriculum } from "../../curriculum"
+import { Footer } from "../../Footer"
 import { Container} from "./style"
 
 export const Main: React.FC = () => {
@@ -121,9 +122,9 @@ export const Main: React.FC = () => {
            </div>
       </div>
       <div className="none">
-
-      <Foolder/>
+      <Curriculum/>
       </div>
+      <Footer/>
     </Container>
   )
 }

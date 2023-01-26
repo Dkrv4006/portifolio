@@ -5,6 +5,7 @@ import Projetohtml from "../../assets/Projeto_html.png"
 import listatarefa from "../../assets/lista-tarefa.png"
 import financiamentoveiculo from "../../assets/financiamento_de_veiculo.png"
 import cli from "../../assets/cli.png"
+import portifolio from "../../assets/portifolio.png"
 
 import background_effect from "../../assets/background_effect.png"
 
@@ -14,6 +15,15 @@ import background_effect from "../../assets/background_effect.png"
 export  const data = [
    
 
+  {
+    id:8,
+    name: "Portifolio",
+    imag: portifolio,
+    category: 'reactjs',
+    link: "https://dkrvportifolio.netlify.app/",
+    code: "https://github.com/Dkrv4006/portifolio",
+    description: "Esse projeto feito para facilita a criação de componentes react"
+  },
   {
     id:7,
     name: "Cli",

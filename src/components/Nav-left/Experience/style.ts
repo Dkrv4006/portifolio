@@ -15,13 +15,14 @@ export const Container = styled.div`
       }
 
       h3{
-        margin: 10px 5px;
+        margin: 5px 5px;
       }
 
       .scroll{
         width: 100%;
-        height: 600px;
-        padding-top: 20px;
+        height: auto;
+        padding-top: 30px ;
+
         text-align: center;
         background: ${props=> props.theme.colors.secondary};
       }
@@ -30,7 +31,7 @@ export const Container = styled.div`
       }
 
       .container{
-        padding: 5px;
+        padding: 7px;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -47,8 +48,8 @@ export const Container = styled.div`
 
       .range {
         width: 230px;
-        height: 15px;
-        border-radius: 15px;
+        height: 10px;
+        border-radius: 10px;
 
         -webkit-appearance: none;
         outline: none;
@@ -59,8 +60,8 @@ export const Container = styled.div`
 
     .range::-webkit-slider-thumb {
         -webkit-appearance: none;
-        width: 15px;
-        height: 15px;
+        width: 10px;
+        height: 10px;
         border-radius: 50%;
         background: var(--primary);
         cursor: pointer;
