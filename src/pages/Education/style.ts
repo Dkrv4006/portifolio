@@ -35,6 +35,9 @@ export const Container = styled.div`
         font-weight: 100;
         color: ${props=> props.theme.colors.white};
       }
+      hr{
+        margin: 20px 0;
+      }
       .span{
         padding: 5px;
         border-radius: 5px;
