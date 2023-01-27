@@ -25,6 +25,9 @@ export const Container = styled.div`
         color: ${props=> props.theme.colors.white};
         padding: 20px;
     }
+    hr{
+        border: solid 1px ${props=> props.theme.colors.white};
+    }
     button{
         background: none;
         color: ${props=> props.theme.colors.text};
