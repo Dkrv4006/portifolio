@@ -8,11 +8,11 @@ const data = [
   },
   {
     icon: "fa-brands fa-telegram",
-    link: "https://github.com/Dkrv4006/portifolio"
+    link: "https://t.me/look4006"
   },
   {
     icon: "fa-brands fa-linkedin",
-    link: "https://github.com/Dkrv4006/portifolio"
+    link: "https://www.linkedin.com/in/daniel-kennedy-b1b386217"
   },
   {
     icon: "fa-brands fa-discord",
