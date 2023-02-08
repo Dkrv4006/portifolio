@@ -8,7 +8,7 @@ const data = [
   },
   {
     icon: "fa-brands fa-telegram",
-    link: "https://t.me/look4006"
+    link: "https://t.me/danielkennedy40"
   },
   {
     icon: "fa-brands fa-linkedin",
@@ -16,7 +16,7 @@ const data = [
   },
   {
     icon: "fa-brands fa-discord",
-    link: "https://github.com/Dkrv4006/portifolio"
+    link: "https://discord.com/DKRV#3540"
   },
 ]
 

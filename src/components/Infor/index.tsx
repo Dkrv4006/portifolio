@@ -23,8 +23,8 @@ useEffect(()   =>  {
   return (
     <Container>
 
-        <div><span>+{git} </span> Repositorios </div>
-        <div><span>+{pro} </span> Projetos </div>
+        <div><span>+{git} </span> Repositories </div>
+        <div><span>+{pro} </span> Projects </div>
      
       
     </Container>
